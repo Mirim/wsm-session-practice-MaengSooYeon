@@ -5,6 +5,11 @@ public class MemberInfo {
 	private String name;
 	private String email;
 	
+	public MemberInfo(String id, String email) {
+		this.id=id;
+		this.email=email;
+	}
+	
 	public MemberInfo(String id, String name, String email) {
 		super();
 		this.id=id;
